@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header, section, footer {
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: tomato;
+    font-size: 3vw;
+}
+
+nav a {
+    margin: 1rem;
+}
+
+.projects {
+    background-color: thistle;
+}
+
+.about {
+    background-color: steelblue;
+}
+
+.contact {
+    background-color: sienna;
+}
+
+footer {
+    background-color: teal;
+}
