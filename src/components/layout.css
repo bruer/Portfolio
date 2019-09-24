@@ -4,20 +4,36 @@ html {
 
 body {
     margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: gainsboro;
     text-align: center;
 }
 
 header, section, footer {
-    padding: 10rem;
+    padding: 10rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
 header {
     background-color: tomato;
-    font-size: 3vw;
+    font-size: 7.5vw;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 10vw;
+}
+
+section h3 {
+    font-size: 5vw;
+}
+
+section p {
+    font-size: 2.5vw;
 }
 
 nav a {
