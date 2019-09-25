@@ -12,13 +12,6 @@
 
 .link {
     color: black;
-    text-decoration: none;
-    /* padding: 10px 0; */
     font-size: 12.5vw;
     letter-spacing: 3vw;
-}
-
-.link:hover {
-    font-style: italic;
-    text-shadow: 0.1em 0.1em gainsboro;
-}
+}   

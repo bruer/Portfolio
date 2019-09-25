@@ -6,14 +6,16 @@ import Footer from "./footer.js"
 import Projects from "./projects"
 import About from "./about"
 import Contact from "./contact"
+import Button from "./button"
 
-export default ({ children }) => (
+export default () => (
   <div>
+    <Button />
     <Header />
     <Projects />
     <About />
     <Contact />
     <Footer />
-    {children}
   </div>
 )
+

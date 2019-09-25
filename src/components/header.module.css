@@ -1,0 +1,9 @@
+header {
+  height: 100vh;
+  background-color: tomato;
+  font-size: 5vw;
+}
+
+.link {
+  margin: 1rem;
+}

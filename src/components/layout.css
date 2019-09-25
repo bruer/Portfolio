@@ -1,57 +1,50 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: gainsboro;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: gainsboro;
+  text-align: center;
 }
 
-header, section, footer {
-    padding: 10rem 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+header,
+section,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-header {
-    background-color: tomato;
-    font-size: 7.5vw;
+section,
+footer {
+  padding: 10rem 5rem;
 }
 
-section h2 {
-    margin-top: 0;
-    font-size: 10vw;
+h2 {
+  margin-top: 0;
+  font-size: 10vw;
 }
 
-section h3 {
-    font-size: 5vw;
+h3 {
+  font-size: 5vw;
 }
 
-section p {
-    font-size: 2.5vw;
+p {
+  font-size: 2.5vw;
 }
 
-nav a {
-    margin: 1rem;
+a {
+  text-decoration: none;
 }
 
-.projects {
-    background-color: thistle;
-}
-
-.about {
-    background-color: steelblue;
-}
-
-.contact {
-    background-color: sienna;
+a:hover {
+  font-style: italic;
+  text-shadow: 0.1em 0.1em gainsboro;
 }
 
 footer {
-    background-color: teal;
+  background-color: black;
 }

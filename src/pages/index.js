@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-// import Container from "../components/container"
 
 // import Header from "../components/header.js"
 // import Footer from "../components/footer.js"
@@ -8,4 +7,5 @@ import Layout from "../components/layout"
 // import About from "../components/about"
 // import Contact from "../components/contact"
 
-export default () => <Layout></Layout>
+export default () => <Layout />
+
