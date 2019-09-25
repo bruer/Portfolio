@@ -14,31 +14,31 @@ export default () => (
   </button>
 )
 
-const btn = document.querySelector("#to-top-btn")
+// const btn = document.querySelector("#to-top-btn")
 
-if (window.addEventListener) {
-  window.addEventListener(
-    "DOMContentLoaded",
-    () => {
-      console.log(btn)
-    },
-    false
-  )
-  window.addEventListener(
-    "load",
-    () => {
-      console.log(btn)
-    },
-    false
-  )
-  window.addEventListener(
-    "scroll",
-    () => {
-      console.log(btn)
-    },
-    false
-  )
-}
+// if (window.addEventListener) {
+//   window.addEventListener(
+//     "DOMContentLoaded",
+//     () => {
+//       console.log(btn)
+//     },
+//     false
+//   )
+//   window.addEventListener(
+//     "load",
+//     () => {
+//       console.log(btn)
+//     },
+//     false
+//   )
+//   window.addEventListener(
+//     "scroll",
+//     () => {
+//       console.log(btn)
+//     },
+//     false
+//   )
+// }
 
 // console.log(btn)
 // console.log('hej')
