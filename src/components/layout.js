@@ -1,21 +1,16 @@
 import React from "react"
 import "./layout.css"
 
-import Header from "./header.js"
 import Footer from "./footer.js"
-import Projects from "./projects"
-import About from "./about"
-import Contact from "./contact"
-import Button from "./button"
+// import Header from "./header.js"
+// import Projects from "./projects"
+// import About from "./about"
+// import Contact from "./contact"
+// import Button from "./button"
 
-export default () => (
+export default ({ children }) => (
   <div>
-    <Button />
-    <Header />
-    <Projects />
-    <About />
-    <Contact />
+    {children}
     <Footer />
   </div>
 )
-

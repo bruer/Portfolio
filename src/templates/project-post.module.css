@@ -1,0 +1,14 @@
+.container {
+    min-height: 100vh;
+    padding: 0 5rem;
+    background-color: burlywood;
+    color: whitesmoke;
+}
+
+.image {
+    border-radius: 1rem;
+}
+
+.link {
+    margin-bottom: 3rem;
+}

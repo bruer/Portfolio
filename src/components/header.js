@@ -1,6 +1,6 @@
 import React from "react"
-// import Navigation from "./navigation"
 import styles from "./header.module.css"
+import { graphql, useStaticQuery } from "gatsby"
 
 const Link = props => (
   <a className={styles.link} href={props.url}>
@@ -8,13 +8,26 @@ const Link = props => (
   </a>
 )
 
-export default () => (
-  <header>
-    <h1>Fredrik's Portofolio</h1>
-    <nav>
-      <Link text="Projects" url="#projects" />
-      <Link text="About" url="#about" />
-      <Link text="Contact" url="#contact" />
-    </nav>
-  </header>
-)
+export default () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `
+  )
+  return (
+    <header className={styles.container}>
+      <h1>{data.site.siteMetadata.title}</h1>
+      <nav>
+        <Link text="Projects" url="#projects" />
+        <Link text="About" url="#about" />
+        <Link text="Contact" url="#contact" />
+      </nav>
+    </header>
+  )
+}

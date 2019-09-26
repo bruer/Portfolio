@@ -6,7 +6,6 @@ export default () => (
     className={styles.button}
     id="to-top-btn"
     onClick={() => {
-      document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
     }}
   >
