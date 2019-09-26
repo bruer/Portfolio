@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "./projects.module.css"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import styles from "./projects.module.css"
 
 export default () => {
   const data = useStaticQuery(
@@ -29,10 +29,10 @@ export default () => {
       <h2>My Projects</h2>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <Link to={node.fields.slug}>
+          <Link className={styles.link} to={node.fields.slug}>
             <h3>{node.frontmatter.title}</h3>
           </Link>
-          <p>{node.frontmatter.date}</p>
+          <p className={styles.date}>{node.frontmatter.date}</p>
           <p>{node.excerpt}</p>
         </div>
       ))}

@@ -12,7 +12,12 @@ export default () => (
     <h2>Reach me here</h2>
     <ul className={styles.list}>
       <li>
-        <Link className={styles.link} text="Mail" url="mailto:f.bruer@gmail.com" target="_blank" />
+        <Link
+          className={styles.link}
+          text="Mail"
+          url="mailto:f.bruer@gmail.com"
+          target="_blank"
+        />
       </li>
       <li>
         <Link text="Github" url="https://github.com/bruer" target="_blank" />
@@ -21,7 +26,11 @@ export default () => (
         <Link text="Twitter" url="https://twitter.com" target="_blank" />
       </li>
       <li>
-        <Link text="Linkedin" url="https://linkedin.com/in/fredrik-bru%C3%A9r-5a2b22154" target="_blank" />
+        <Link
+          text="Linkedin"
+          url="https://linkedin.com/in/fredrik-bru%C3%A9r-5a2b22154"
+          target="_blank"
+        />
       </li>
     </ul>
   </section>

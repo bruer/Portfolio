@@ -9,7 +9,7 @@ export default () => (
       <img className={styles.image} src={bike} alt="me" />
       <div>
         <h3>I'm Fredrik</h3>
-        <p>former mail man who nowadays study front end development</p>
+        <p>former postman who nowadays study front end development</p>
       </div>
     </div>
   </section>

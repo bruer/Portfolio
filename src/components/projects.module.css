@@ -1,4 +1,13 @@
 .container {
-    background-color: thistle;
-    color: whitesmoke;
+  background-color: thistle;
+  color: whitesmoke;
+}
+
+.date {
+  font-size: 1.75vw;
+  color: steelblue;
+}
+
+.link:hover {
+  text-shadow: 0.75vw 0.75vw crimson;
 }

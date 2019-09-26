@@ -1,6 +1,22 @@
 .button {
-    /* display: none; */
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
+  /* display: none; */
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+
+  border: none;
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  background-color: ivory;
+  opacity: 0.5;
+  transition: box-shadow 0.5s;
+  transition: opacity 0.5s;
+}
+
+.button:hover {
+  opacity: 1;
+  box-shadow: 3px 3px black;
 }

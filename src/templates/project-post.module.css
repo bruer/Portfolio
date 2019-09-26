@@ -1,14 +1,38 @@
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: thistle;
+}
+
 .container {
-    min-height: 100vh;
-    padding: 0 5rem;
-    background-color: burlywood;
-    color: whitesmoke;
+  justify-content: space-around;
+  padding: 0 5rem;
+  background-color: tomato;
+  color: whitesmoke;
+  max-width: 800px;
 }
 
 .image {
-    border-radius: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  transition: box-shadow 1s;
+}
+
+.image:hover {
+  box-shadow: 4vw 4vw black;
+}
+
+.imageText {
+  position: relative;
+  font-size: 1.25vw;
 }
 
 .link {
-    margin-bottom: 3rem;
+  margin: 1.5em 0 3em 0;
+  letter-spacing: 0.5vw;
+}
+
+.link:hover {
+  text-shadow: 0.15em 0.15em whitesmoke;
 }

@@ -5,15 +5,32 @@ import Img from "gatsby-image"
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+  const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
   return (
-    <section className={styles.container}>
-      <h1>{post.frontmatter.title}</h1>
-      <Img className={styles.image} fluid={featuredImgFluid} />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <Link className={styles.link} to="/">Back</Link>
-    </section>
+    <div className={styles.background}>
+      <section className={styles.container}>
+        <div>
+          <h1>{post.frontmatter.title}</h1>
+          <div>
+            <a
+              href={post.frontmatter.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Img className={styles.image} fluid={featuredImgFluid} />
+            </a>
+            <p className={styles.imageText}>
+              Click the image to go to the project
+            </p>
+          </div>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
+        <Link className={styles.link} to="/#projects">
+          Back
+        </Link>
+      </section>
+    </div>
   )
 }
 
@@ -23,6 +40,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        url
         featuredImage {
           childImageSharp {
             fluid(maxWidth: 800) {

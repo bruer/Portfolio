@@ -4,6 +4,10 @@
   font-size: 5vw;
 }
 
+.container h1 {
+  margin-bottom: 1em;
+}
+
 .link {
   margin: 1rem;
 }

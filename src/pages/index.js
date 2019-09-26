@@ -1,17 +1,21 @@
 import React from "react"
-import Layout from "../components/layout"
-import Button from "../components/button"
+
+import "../styles/layout.css"
+
 import Header from "../components/header"
 import Projects from "../components/projects"
 import About from "../components/about"
 import Contact from "../components/contact"
+import Footer from "../components/footer"
+import Button from "../components/button"
 
 export default () => (
-  <Layout>
-    <Button />
+  <div>
     <Header />
     <Projects />
     <About />
     <Contact />
-  </Layout>
+    <Footer />
+    <Button />
+  </div>
 )

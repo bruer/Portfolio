@@ -2,6 +2,6 @@ import React from "react"
 
 export default () => (
   <footer>
-    <p>foot</p>
+    <p>© {new Date().getFullYear()}</p>
   </footer>
 )
