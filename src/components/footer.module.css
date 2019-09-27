@@ -1,0 +1,11 @@
+footer {
+  /* background-color: black; */
+  color: black;
+  background-image: url(../img/foot.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  font-size: 3vw;
+}
