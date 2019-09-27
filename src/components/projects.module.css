@@ -3,6 +3,11 @@
   color: whitesmoke;
 }
 
+.container h3 {
+  /* width: 10%; */
+  display: inline-block;
+}
+
 .date {
   font-size: 1.75vw;
   color: steelblue;
