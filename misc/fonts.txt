@@ -1,0 +1,85 @@
+header firstletter:
+
+/* font-family: "Akronim", cursive; */
+  /* font-family: "Almendra Display", cursive; */
+  /* font-family: "Astloch", cursive; */
+  /* font-family: "Benguiat"; */
+  /* font-family: "Bonbon", cursive; */
+  /* font-family: "Creepster", cursive; */
+  /* font-family: "Elsie Swash Caps", cursive; */
+  /* font-family: "Ewert", cursive; */
+  /* font-family: "Friz Quadrata"; */
+  /* font-family: "Glass Antiqua", cursive; */
+  /* font-family: "MedievalSharp", cursive; */
+  /* font-family: "Megrim", cursive; */
+  /* font-family: "New Rocker", cursive; */
+  /* font-family: "Old English Gothic"; */
+  /* font-family: "Old English Std"; */
+  /* font-family: "Pirata One", cursive; */
+  /* font-family: "Ruslan Display", cursive; */
+  /* font-family: "Rye", cursive; */
+  /* font-family: "Sevillana", cursive; */
+  /* font-family: "Spirax", cursive; */
+  /* font-family: "UnifrakturCook", cursive; */
+  /* font-family: "UnifrakturMaguntia", cursive; */
+
+
+
+h3: 
+
+/* font-family: "Old English Gothic"; */
+  /* font-family: "Press Start 2P", cursive; */
+  /* font-family: "Cinzel Decorative", cursive; */
+  /* font-family: "Pirata One", cursive; */
+  /* font-family: "Glass Antiqua", cursive; */
+  /* font-family: "MedievalSharp", cursive; */
+  /* font-family: "Lancelot", cursive; */
+  /* font-family: "Almendra Display", cursive; */
+  /* font-family: "Friz Quadrata"; */
+  /* font-family: "Benguiat"; */
+
+
+
+p:
+
+/* font-family: "Press Start 2P", cursive; */
+  /* font-family: "Cinzel Decorative", cursive; */
+  /* font-family: "Pirata One", cursive; */
+  /* font-family: "Glass Antiqua", cursive; */
+  /* font-family: "MedievalSharp", cursive; */
+  /* font-family: "Lancelot", cursive; */
+  /* font-family: "Almendra Display", cursive; */
+
+
+
+
+links external:
+
+/* font-family: "Sacramento", cursive; */
+  /* font-family: "Merienda One", cursive; */
+  /* font-family: "Fondamento", cursive; */
+  /* font-family: "Bonbon", cursive; */
+  /* font-family: "Press Start 2P", cursive; */
+  /* font-family: "Yeseva One", cursive; */
+  /* font-family: "Cinzel Decorative", cursive; */
+  /* font-family: "Modak", cursive; */
+  /* font-family: "Rye", cursive; */
+  /* font-family: "Raleway Dots", cursive; */
+  /* font-family: "Faster One", cursive; */
+  /* font-family: "Spirax", cursive; */
+  /* font-family: "Megrim", cursive; */
+  /* font-family: "Kranky", cursive; */
+  /* font-family: "Ruslan Display", cursive; */
+  /* font-family: "Creepster", cursive; */
+  /* font-family: "Ribeye Marrow", cursive; */
+  /* font-family: "Ewert", cursive; */
+  /* font-family: "Pirata One", cursive; */
+  /* font-family: "Akronim", cursive; */
+  /* font-family: "Glass Antiqua", cursive; */
+  /* font-family: "Elsie Swash Caps", cursive; */
+  /* font-family: "Lancelot", cursive; */
+  /* font-family: "Almendra Display", cursive; */
+  /* font-family: "Libre Barcode 39 Text", cursive; */
+  /* font-family: "Sevillana", cursive; */
+  /* font-family: "Friz Quadrata"; */
+  /* font-family: "Benguiat"; */

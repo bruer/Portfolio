@@ -1,0 +1,84 @@
+.container {
+  justify-content: space-evenly;
+  padding: 0 5vw;
+}
+.title {
+  margin: 5vw 0;
+}
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageContainer {
+  width: 60%;
+}
+.image {
+  border-radius: 2vw;
+}
+.imageText {
+  position: relative;
+  margin: 0;
+  padding: 1vw 0;
+  font-size: 4vw;
+  font-style: italic;
+}
+.textContainer {
+  overflow: scroll;
+  width: 30%;
+  border: solid .2vw;
+  border-radius: 2vw;
+}
+.textContainer p {
+  margin: 1vw;
+  font-size: 3.75vw;
+}
+.iconContainer {
+  margin: 5vw 0;
+}
+.icon {
+  border-radius: 50%;
+  width: 10vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 15vw;
+  }
+  .imageContainer,
+  .textContainer {
+    width: 100%;
+  }
+  .imageText {
+    font-size: 7.5vw;
+  }
+  .textContainer {
+    margin: 5vw 5vw 0;
+  }
+  .textContainer p {
+    margin: 2.5vw;
+    font-size: 5vw;
+  }
+  .iconContainer {
+    margin: 10vw;
+  }
+  .icon {
+    width: 15vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .title {
+    margin: 10vw 0;
+  }
+  .imageText {
+    font-size: 7.5vw;
+    padding: 3vw 0;
+  }
+  .textContainer p {
+    font-size: 7.5vw;
+  }
+  .icon {
+    width: 20vw;
+  }
+}

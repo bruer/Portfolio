@@ -1,13 +1,86 @@
 .container {
   height: 100vh;
-  background-color: tomato;
+}
+.title {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+}
+.firstLetter {
+  font-size: 65vw;
+  font-weight: normal;
+
+  /* font-family: "Akronim", cursive; */
+  /* font-family: "Almendra Display", cursive; */
+  /* font-family: "Astloch", cursive; */
+  /* font-family: "Benguiat"; */
+  /* font-family: "Bonbon", cursive; */
+  /* font-family: "Creepster", cursive; */
+  /* font-family: "Elsie Swash Caps", cursive; */
+  /* font-family: "Ewert", cursive; */
+  /* font-family: "Friz Quadrata"; */
+  /* font-family: "Glass Antiqua", cursive; */
+  /* font-family: "MedievalSharp", cursive; */
+  /* font-family: "Megrim", cursive; */
+  /* font-family: "New Rocker", cursive; */
+  /* font-family: "Old English Gothic"; */
+  /* font-family: "Old English Std"; */
+  /* font-family: "Pirata One", cursive; */
+  /* font-family: "Ruslan Display", cursive; */
+  /* font-family: "Rye", cursive; */
+  /* font-family: "Sevillana", cursive; */
+  /* font-family: "Spirax", cursive; */
+  /* font-family: "UnifrakturCook", cursive; */
+  /* font-family: "UnifrakturMaguntia", cursive; */
+}
+.titleWords {
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  text-transform: lowercase;
+}
+.titleWords span:nth-child(2) {
   font-size: 5vw;
+  letter-spacing: 1.5vw;
+}
+nav {
+  position: absolute;
+  bottom: 35%;
+}
+.linksList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.container h1 {
-  margin-bottom: 1em;
-}
-
-.link {
-  margin: 1rem;
+@media only screen and (max-width: 500px) {
+  .container {
+    justify-content: space-between;
+  }
+  .title {
+    height: 50%;
+    margin: 0;
+  }
+  .firstLetter {
+    font-size: 130vw;
+  }
+  .titleWords {
+    align-self: center;
+    position: absolute;
+    height: auto;
+    top: 20%;
+  }
+  .titleWords span:nth-child() {
+    font-size: 20vw;
+  }
+  .titleWords span:nth-child(2) {
+    font-size: 10vw;
+  }
+  nav {
+    position: static;
+    margin-bottom: 20%;
+  }
 }

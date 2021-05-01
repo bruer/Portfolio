@@ -1,11 +1,17 @@
-footer {
-  /* background-color: black; */
-  color: black;
+.container {
   background-image: url(../img/foot.jpg);
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
 }
-
 .copyright {
-  font-size: 3vw;
+  cursor: default;
+  margin: 0;
+  font-size: 20vw;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 925px) {
+  .copyright {
+    font-size: 35vw;
+  }
 }

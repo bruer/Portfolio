@@ -1,0 +1,51 @@
+.default {
+  z-index: 1;
+  position: fixed;
+  outline: none;
+
+  border-radius: 2vw;
+  border: solid .2vw;
+}
+.scroll {
+  bottom: 2.5vw;
+  right: 2.5vw;
+  cursor: pointer;
+
+  font-size: 1vw;
+  padding: 1.5vw 2vw;
+}
+.home {
+  top: 2.5vw;
+  left: 2.5vw;
+  text-decoration: none;
+
+  font-size: 1.5vw;
+  padding: 2vw 3vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .default {
+    border: solid 2px;
+  }
+  .scroll {
+    font-size: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+  }
+  .home {
+    font-size: 15px;
+    padding: 12.5px 20px;
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .scroll {
+    bottom: 5vw;
+    right: 5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home {
+    padding: 7.5px 15px;
+  }
+}

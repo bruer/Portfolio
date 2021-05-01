@@ -1,22 +1,71 @@
-.container {
-  background-color: steelblue;
+.title {
+  font-size: 15vw;
+  margin-bottom: 5vw;
 }
-
-.infoBox {
-  width: 100%;
+.contentContainer {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
-
+.image,
+.textContainer {
+  width: 48%;
+}
 .image {
-  width: 50%;
-  max-width: 500px;
+  float: right;
+  min-width: 100px;
   border-radius: 100%;
-  margin: 0 1em;
-  transition: box-shadow 2s;
+  border: 0.75vw solid;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+.aboutMe {
+  width: 75%;
+  font-style: italic;
 }
 
-.image:hover {
-  box-shadow: 15vw 0 black;
+/* @media only screen and (min-width: 1025px) {
+  .contentContainer {
+    width: 75%;
+  }
+  .myName {
+    font-size: 6vw;
+  }
+  .aboutMe {
+    font-size: 2.5vw;
+  }
+} */
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 10vw 5vw;
+  }
+  .title {
+    font-size: 20vw;
+  }
+  .image,
+  .textContainer {
+    width: 85%;
+  }
+  .textContainer {
+    height: 50%;
+    justify-content: center;
+  }
+  .myName {
+    font-size: 15vw;
+  }
+  .aboutMe {
+    font-size: 6vw;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    padding: 0 5vw;
+  }
 }

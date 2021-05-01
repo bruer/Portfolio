@@ -1,18 +1,81 @@
 .container {
-  background-color: thistle;
-  color: whitesmoke;
+  padding-top: 10vw;
 }
-
-.container h3 {
-  /* width: 10%; */
-  display: inline-block;
+.projectsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
+.project {
+  width: 45%;
+  margin-bottom: 5vw;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover .projectTitle {
+  letter-spacing: 2vw;
+  text-shadow: .5vw .5vw crimson;
+}
+.projectTitle {
+  font-size: 5vw;
+}
 .date {
-  font-size: 1.75vw;
-  color: steelblue;
+  font-size: 2vw;
+}
+.excerpt {
+  font-size: 2.5vw;
 }
 
-.link:hover {
-  text-shadow: 0.75vw 0.75vw crimson;
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 5vw;
+  }
+  .projectTitle {
+    font-size: 6vw;
+  }
+  .excerpt {
+    font-size: 3vw;
+  }
+  .date {
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10vw 5vw;
+  }
+  .title {
+    font-size: 15vw;
+  }
+  .project {
+    width: 100%;
+    margin: 5vw;
+  }
+  .link:hover .projectTitle {
+    text-shadow: .75vw .75vw crimson;
+  }
+  .projectTitle {
+    font-size: 10vw;
+  }
+  .date {
+    font-size: 3vw;
+  }
+  .excerpt {
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-top: 20vw;
+  }
+  .projectTitle {
+    font-size: 12.5vw;
+  }
+  .excerpt {
+    font-size: 7.5vw;
+  }
+  .date {
+    font-size: 5vw;
+  }
 }
